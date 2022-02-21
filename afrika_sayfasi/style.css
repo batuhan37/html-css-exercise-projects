@@ -1,0 +1,118 @@
+
+#container{
+max-width: 1300px;
+margin: auto;
+padding-left: 50px;
+padding-right: 50px;
+}
+
+#project{
+    width: 100%;
+    height: 100vh;
+}
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px   ;
+}
+
+
+#navbar #logo img{
+    width: 90px;
+}
+
+nav{
+    margin-right: 35%;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+nav ul li a {
+    color: rgb(143, 0, 0);
+    font-weight: 700;
+    font-size: 20px;
+}
+nav ul li a:hover {
+    color: rgb(49, 48, 48);
+}
+
+#icon i{
+    font-size: 25px;
+    align-items: center;
+    color: rgb(143, 0, 0);
+
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+#box{
+    width: 500px;
+    height: 500px;
+    margin-top: -50px;
+    position: relative;
+}
+
+.row #box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    mix-blend-mode: screen;
+}
+
+#box video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+
+.row h1{
+    color: rgb(143, 0, 0);
+    font-size: 3rem;
+}
+.row span{
+    font-size: 6rem;
+    margin-left: 75px!important;
+    line-height: 10px;
+    margin: 20px 0px;
+    font-weight: bolder;
+    color: rgb(143, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row p{
+    font-weight: bold;
+    margin: 15px 0px;
+
+}
+
+.row a{
+    display: inline-block;
+    color: whitesmoke;
+    background-color: rgb(143, 0, 0);
+    padding: 8px 20px;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 70%;
+}
+.row a:hover{
+background-color: rgb(77, 8, 8);
+}
